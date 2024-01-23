@@ -1,11 +1,12 @@
 // App.js
+import { HourglassBottomOutlined } from '@mui/icons-material';
 import React from 'react';
-// import Home from './pages/home/Home';
+import Home from './pages/home/Home';
 
 
 function App() {
   return (
-
+<Home/>
   );
 }
 export default App;

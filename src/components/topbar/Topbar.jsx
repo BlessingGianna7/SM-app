@@ -23,17 +23,17 @@ const Topbar = () => {
         <div className="topbarIcons">
           <div className="topbarIconItem">
             <Person />
-            <span className="topbarIconBadge"> 1</span>
+            <span className="topbarIconBadge"> <span className="notif">1</span></span>
           </div>
 
           <div className="topbarIconItem">
             < Chat />
-            <span className="topbarIconBadge"> 1</span>
+            <span className="topbarIconBadge"> <span className="notif">2</span></span>
           </div>
 
           <div className="topbarIconItem">
             <NotificationAdd/>
-            <span className="topbarIconBadge"> 1</span>
+            <span className="topbarIconBadge"><span className="notif">3</span></span>
           </div>
           </div>
 

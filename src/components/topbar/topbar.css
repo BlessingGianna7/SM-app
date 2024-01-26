@@ -49,10 +49,10 @@ border-radius: 50%;
 counter-reset: white;
 position: absolute;
 top: -5px;
-right: -5px;
-display: flex;
-align-items: center;
-justify-self:center;
+right: -10px;
+ display: flex; 
+ align-items: center;
+justify-self:center;  
 font-size: 12px;
 }
 .topbarImg{
@@ -61,6 +61,9 @@ font-size: 12px;
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
+}
+.notif{
+    margin-left: 4px;
 }
 
 .topbarRight{
